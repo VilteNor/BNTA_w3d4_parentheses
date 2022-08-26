@@ -3,7 +3,7 @@ public class Runner {
     public static void main(String[] args) {
 
 
-        String myString="test()())))";
+        String myString="({})";
 
         boolean result=ParenthesesChecker.checkParentheses(myString);
         System.out.println(result);
